@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://toumikhaque.netlify.app/sitemap.xml

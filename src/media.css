@@ -1,0 +1,382 @@
+@media screen and (max-width: 576px) {
+
+  .nav-toggle{
+    display: block !important;
+    font-size: 1.5rem;
+  }
+  
+  .navbar{
+    height: 4rem !important;
+    background-color: blu;
+  }
+
+
+
+  /* .active{
+    font-weight: bold !important;
+    color: #0d6ef !important;
+    background-color: transparent !important;
+  } */
+
+  #projects .container{
+    padding-top: 0 !important;
+  }
+
+  nav .ele{
+    display: none;
+  }
+
+  .hero{
+    height: fit-content !important;
+  }
+
+  .hero > .container{
+    flex-direction: column-reverse;
+    width: 100vw !important;
+    row-gap: 5vh;
+    height: fit-content !important;
+    overflow-x: hidden;
+  }
+
+  .hero .container-content{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    width: 23rem !important;
+  }
+
+  .hero .text-secondary{
+    text-align: center;
+    width: 30rem;
+    font-size: 1.5rem !important;
+  }
+
+  .hero .fw-bold{
+    font-size: 2.5rem !important;
+  }
+
+  .hero .para{
+    width: 22.2rem;
+    text-align: center;
+  }
+
+  .hero .buttons{
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .social-intro{
+    width: 11rem;
+  }
+
+  .hero img{
+    width: 13rem;
+  }
+
+  .hero .img-box{
+    margin-top: 5rem;
+    width: 23rem !important;
+    height: fit-content !important;
+  }
+
+  #about .container{
+    /* padding-top: 5rem !important; */
+    flex-direction: column !important;
+    align-items: center;
+    height: fit-content !important;
+  }
+
+  #about .img-container{
+    margin-top: 2rem !important;
+  }
+
+  #about .text-container{
+    width: 23rem !important;
+    overflow: hidden;
+    margin-top: 0% !important;
+    padding-top: 2% !important;
+  }
+
+  #about img{
+    height: 15rem;
+  }
+
+  #about h3{
+    font-size: 2.5rem !important;
+  }
+
+  #about p{
+    margin-bottom: 2rem;
+  }
+
+  #skills .container{
+    height: fit-content !important;
+    padding-top: 8vh !important;
+  }
+
+  #skills h1{
+    font-size: 2.8rem !important;
+  }
+
+  .skills-cards > .card{
+    width: 10rem !important;
+  }
+
+  .skills-cards{
+    margin-top: 1rem !important;
+  }
+
+  #projects .container{
+    height: fit-content !important;
+  }
+
+  #projects h1{
+    font-size: 2.5rem !important;
+  }
+
+  .projects-cards{
+    row-gap: 2rem;
+  }
+
+  #contact .container{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0% !important;
+  }
+
+  #contact .container > div{
+    width: 23rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact h1{
+    font-size: 2.5rem !important;
+  }
+
+  .email-card{
+    width: 20rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem;
+  }
+
+  .contact-social{
+    column-gap: 4.5rem !important;
+    margin-left: 0% !important;
+  }
+
+  .contactcard{
+    width: 90vw;
+  }
+
+  form{
+    width: 20rem;
+    margin-bottom: 0% !important;
+  }
+
+  .form-box{
+    margin-top: 0% !important;
+  }
+
+  #contact{
+    height: fit-content !important;
+  }
+
+  .modal-dialog{
+    width: 20rem;
+    margin: auto;
+  }
+
+  .sitemap{
+    text-align: center !important;
+    margin-top: 2rem;
+  }
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+  .nav-toggle{
+    display: block !important;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .navbar{
+    height: 4rem !important;
+  }
+
+  nav .ele{
+    display: none;
+  }
+
+  .hero{
+    height: fit-content !important;
+  }
+
+  .hero > .container{
+    flex-direction: column-reverse;
+    width: 100vw !important;
+    row-gap: 5vh;
+    height: fit-content !important;
+    overflow-x: hidden;
+  }
+
+  .hero .container-content{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    width: 23rem !important;
+  }
+
+  .hero .text-secondary{
+    text-align: center;
+    width: 30rem;
+    font-size: 2rem !important;
+  }
+
+  .hero .fw-bold{
+    font-size: 3.5rem !important;
+  }
+
+  .hero .para{
+    width: 35rem;
+    text-align: center;
+  }
+
+  .hero .buttons{
+    width: 23rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .social-intro{
+    width: 11rem;
+  }
+
+  .hero img{
+    width: 17rem;
+  }
+
+  .hero .img-box{
+    margin-top: 5rem;
+    width: 23rem !important;
+    height: fit-content !important;
+  }
+
+  #about .container{
+    flex-direction: column !important;
+    align-items: center;
+    height: fit-content !important;
+  }
+
+  #about .img-container{
+    margin-top: 5rem !important;
+  }
+
+  #about .text-container{
+    width: 35rem !important;
+    overflow: hidden;
+    margin-top: 0% !important;
+    padding-top: 2% !important;
+  }
+
+  #about img{
+    height: 17rem;
+  }
+
+  #about h3{
+    font-size: 3.5rem !important;
+  }
+
+  #about p{
+    margin-bottom: 2rem;
+  }
+
+  #skills .container{
+    height: fit-content !important;
+    padding-top: 8vh !important;
+  }
+
+  #skills h1{
+    font-size: 3.5rem !important;
+  }
+
+  .skills-cards > .card{
+    width: 10rem !important;
+  }
+
+  .skills-cards{
+    margin-top: 1rem !important;
+  }
+
+  #projects .container{
+    height: fit-content !important;
+  }
+
+  #projects h1{
+    font-size: 3.5rem !important;
+  }
+
+  .projects-cards{
+    margin-top: 3rem !important;
+    justify-content: left !important;
+    gap: 3rem;
+  }
+
+  #contact .container{
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 0% !important;
+  }
+
+  #contact .container > div{
+    width: 40rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact h1{
+    font-size: 3.5rem !important;
+  }
+
+  .email-card{
+    width: 25rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem;
+  }
+
+  .contact-social{
+    column-gap: 4.5rem !important;
+    margin-left: 0% !important;
+  }
+
+  form{
+    width: 30rem;
+    margin-bottom: 0% !important;
+  }
+
+  .form-box{
+    margin-top: 0% !important;
+    margin-bottom: 5rem;
+  }
+
+  #contact{
+    height: fit-content !important;
+  }
+
+  .modal-dialog{
+    width: 28rem;
+    margin: auto;
+  }
+
+  .sitemap{
+    text-align: center;
+  }
+
+}
